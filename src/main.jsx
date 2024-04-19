@@ -12,15 +12,15 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/ott",
+    path: "ott",
     element: <Ott />,
   },
   {
-    path: "/components",
+    path: "components",
     element: <Component />,
     children: [
       {
-        path: "/otp",
+        path: "otp",
         element: <Otp />,
       },
     ],
