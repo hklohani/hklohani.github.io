@@ -1,7 +1,12 @@
 import React from "react";
 import "./index.css";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, createHashRouter, Outlet, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  createHashRouter,
+  Outlet,
+  RouterProvider,
+} from "react-router-dom";
 import Home from "src/routes/home";
 import Ott from "src/routes/ott";
 import Component from "src/routes/components";
@@ -11,7 +16,7 @@ const router = createHashRouter([
     path: "/",
     element: (
       <div>
-        <Outlet />
+        <Ott />
       </div>
     ),
     children: [
