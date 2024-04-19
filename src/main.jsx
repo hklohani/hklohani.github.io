@@ -1,12 +1,12 @@
 import React from "react";
 import "./index.css";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, createHashRouter, Outlet, RouterProvider } from "react-router-dom";
 import Home from "src/routes/home";
 import Ott from "src/routes/ott";
 import Component from "src/routes/components";
 import Otp from "./components/otp";
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: (
