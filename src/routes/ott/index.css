@@ -1,0 +1,88 @@
+
+
+header {
+  background-color: #333;
+  padding: 10px 0;
+  overflow-x: auto;
+}
+
+nav {
+  display: flex;
+  white-space: nowrap;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 5px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+.ott-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.platform {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.platform:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.platform a {
+  display: block;
+  padding: 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.platform a:hover {
+  background-color: #0056b3;
+}
+
+.credentials {
+  padding: 20px;
+}
+
+.credentials p {
+  margin: 10px 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.credentials strong {
+  color: #333;
+}
